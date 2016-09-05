@@ -1,0 +1,34 @@
+{
+  "name": "demo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --port 9090 --hot",
+    "postinstall": "typings install"
+  },
+  "keywords": [],
+  "author": "tj",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.6",
+    "@angular/compiler": "2.0.0-rc.6",
+    "@angular/core": "2.0.0-rc.6",
+    "@angular/forms": "2.0.0-rc.6",
+    "@angular/http": "2.0.0-rc.6",
+    "@angular/platform-browser": "2.0.0-rc.6",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.6",
+    "@angular/router": "^3.0.0-rc.2",
+    "core-js": "^2.4.0",
+    "rxjs": "5.0.0-beta.11",
+    "zone.js": "0.6.17"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.8",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
