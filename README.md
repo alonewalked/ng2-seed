@@ -1,7 +1,11 @@
 ## Angular2 start?
 
-######  lesson 1  
-
 npm install  
 npm start  
 localhost:9090  
+
+######  lesson 1  
+Hello world
+
+######  lesson 2  
+router
