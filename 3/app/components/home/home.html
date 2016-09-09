@@ -1,0 +1,24 @@
+<div class="row carousel-holder">
+    <div >
+        <auction-carousel></auction-carousel>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header card-info card-inverse">
+        <span class="card-title">Striped Table</span>
+    </div>
+    <div class="card-block">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>DESC</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr auction-product-item [product]="product" *ngFor="let product of products"></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
